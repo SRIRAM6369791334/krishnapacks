@@ -18,6 +18,12 @@
       <link href="{{ asset('css/all.min.css') }}" rel="stylesheet">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <!-- CSS FILES End -->
+      <style>
+         #home-slider.owl-theme .owl-nav { pointer-events: none !important; z-index: 99 !important; }
+         #home-slider.owl-theme .owl-nav [class*=owl-] { pointer-events: auto !important; }
+         .slider-caption { z-index: 99 !important; }
+         .slider-caption a { position: relative !important; z-index: 100 !important; cursor: pointer !important; }
+      </style>
    </head>
    <body>
       <div class="wrapper home1">

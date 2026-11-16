@@ -417,6 +417,9 @@ background-position:center;
 	font-weight: 500;
 	margin-right: 15px;
 	box-shadow: 0 8px 15px rgba(0,0,0,.07);
+	position: relative;
+	z-index: 100;
+	cursor: pointer;
 }
 .slider-caption a.active:hover {
 	background: #fff;
@@ -505,9 +508,10 @@ section#home-slider img {
 	top: 0;
 	bottom: 0;
 	height: 50px;
-	z-index: 1;
+	z-index: 99;
 	margin: auto;
 	width: 100%;
+	pointer-events: none;
 }
 #home-slider.owl-theme .owl-nav [class*=owl-] {
 	width: 50px;
@@ -516,6 +520,7 @@ section#home-slider img {
 	border-radius: 3px;
 	border-radius: 100%;
 	font-size: 0;
+	pointer-events: auto;
 }
 #home-slider.owl-theme .owl-nav [class*=owl-]:hover {
 	background: #66bb6a;
