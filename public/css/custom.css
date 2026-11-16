@@ -296,7 +296,7 @@ a.con {
 	display: inline-block;
 	width: 0;
 	height: 0;
-	margin-left: 0;
+	margin-left: 14px;
 	vertical-align: 3px;
 	content: "";
 	border-top: 5px solid;
