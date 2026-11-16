@@ -40,10 +40,10 @@
                         </ul>
                      </li>
                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('composting') }}" role="button">COMPOSTING</a>
+                        <a class="nav-link " href="{{ route('composting') }}" role="button">COMPOSTING</a>
                      </li>
                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ route('contact') }}" role="button"> CONTACT US </a>
+                        <a class="nav-link " href="{{ route('contact') }}" role="button"> CONTACT US </a>
                      </li>
                   </ul>
                </div>
